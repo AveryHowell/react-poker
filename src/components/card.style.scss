@@ -1,0 +1,44 @@
+.App {
+    background-image: url(https://img.freepik.com/free-photo/green-felt-background-texture-poker-casino-table_434420-1498.jpg?w=2000);
+    background-size: cover;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid white;
+    padding: 3rem 0;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 5vh 3rem;
+
+    box-shadow: 3px 3px 20px 0px #000;
+
+    &-value {
+        font-size: 32px;
+    }
+}
+
+.back {
+    background-color: black;
+    div {
+        color: black !important;
+    }
+}
+
+.cover {
+    background-color: rgb(152, 152, 153);
+}
+
+.hearts, .diamonds {
+    color: red;
+}
+
